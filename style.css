@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+}
+
+
+#MenuSuperior{
+    background-color: #303030;
+    margin: 0px;
+}
+
+
+#TituloSuperior{
+    color:#ffffff;
+    width: 1024px;
+    height: 72px;
+    padding-top: 100px;
+    margin-left: 62px;
+}
+
+
+#FraseSuperior{
+    color: white;
+    margin-left: 62px;
+    padding-bottom: 100px; 
+}
+
+
+#SubMenu{
+    background-color: #f9f9f9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-top: 54px;
+    padding-left: 150px;
+    color: black;    
+}
+
+
+#EscritaSub{
+    background-color: #f9f9f9;
+    display: grid;
+    grid-auto-flow:column;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    color: black;
+}
+
+
+#i{margin-left: 20px;
+}
+
+#ii{margin-right: 150px;
+}
+
+
+#container{
+    display:grid;
+    grid-auto-flow: column;
+    columns: auto;   
+}
+
+
+#IMG{
+    margin: 60px 30px 70px 50px
+}
+
+
+#textoimg{
+    margin-left: 60px;
+    margin-top: 200px;
+    line-height: 30px;
+    text-align: justify;
+    size: 24px;
+}
+
+
+#Formulario{
+    background-color: #303030;
+    text-align: center;
+}
+
+
+#TituloFor{
+    color: #ffffff;
+    padding-top: 30px;
+}
+
+
+input{
+    width: 350px;
+    height: 40px;
+    margin: 30px;
+    border: 0px;
+    border-radius:5px;
+    padding-left: 20px;
+}
+
+
+button{
+    background-color:#C07212;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border: 0px;
+    border-radius:5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor:pointer;
+}
+
+button:hover{
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 10px 0px #C07212;
+    transition-duration:0.5s;
+}
